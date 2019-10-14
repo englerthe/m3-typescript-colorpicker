@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Iteration 2
 - add the property "Dimension" to the DimensionConfigurator Class
 - create an "enum" as a type for the dimension property. Dimensions can be "width" or "heigth"
-- change the render method of the Class "DimensionConfigurater" so the it renders one of those according to the dimension property
+- change the render method of the Class "DimensionConfigurator" so the it renders one of those according to the dimension property
   - I'm a width configurator
   - I'm a height configurator
 - in Class "RectangleConfigurator" set the dimension prop of the first to "height" and the dimension prop of the second to "width"
