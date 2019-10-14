@@ -1,10 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# LAB SquareConfigurator
+# LAB RectangleConfigurator
  - fork and clone this project
 
 ## Iteration 1
-- Create a new JSX Component Class "SquareConfigurator.tsx", it should render "Hello I'm a square configurator"
+- Create a new JSX Component Class "RectangleConfigurator.tsx", it should render "Hello I'm a rectangle configurator"
 - add <SquareConfigurator /> to the render() method of App.tsx
 - Create as new JSX Component Class "DimensionConfigurator.tsx", it should render "I'm a DimensionConfigurator"
 - add two times <DimensionConfigurator/> to the render method of the SquareConfigurator.tsx
@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - change the render method of the Class "DimensionConfigurater" so the it renders one of those according to the dimension property
   - I'm a width configurator
   - I'm a height configurator
-- in Class "SquareConfigurator" set the dimension prop of the first to "height" and the dimension prop of the second to "width"
+- in Class "RectangleConfigurator" set the dimension prop of the first to "height" and the dimension prop of the second to "width"
 
 ## Iteration 3
 - add a "length" property to the DimensionConfigurator
@@ -23,6 +23,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Iteration 4
 - add an input field to the DimensionConfigurator, to change the length
-- add state to "SquareConfigurator" for width and height of a square
+- add state to "RectangleConfigurator" for width and height of a square
 - add a div with the width and height in state to render a square with this width and height in pixels
 - add eventhandlers in SquareConfigurator and DimensionConfigurator, so that a user can change width and height and the UI gets updated accordingliy
