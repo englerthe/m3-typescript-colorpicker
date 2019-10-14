@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Iteration 1
 - Create a new JSX Component Class "RectangleConfigurator.tsx", it should render "Hello I'm a rectangle configurator"
 - import and RectangleConfigurator.tsx to App.tsx and add the JSX Component to the render() method of App.tsx
-- Create as new JSX Component Class "DimensionConfigurator.tsx", it should render "I'm a DimensionConfigurator"
+- Create a new JSX Component Class "DimensionConfigurator.tsx", it should render "I'm a DimensionConfigurator"
 - add two DimensionConfigurator components to the render method of the SquareConfigurator.tsx
 
 ## Iteration 2
