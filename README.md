@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Iteration 2
 - add the property "Dimension" to the DimensionConfigurator Class
-- create an "enum" as a type for the dimension property. Dimension can be "width" or "heigth"
+- create an "enum" as a type for the dimension property. Dimensions can be "width" or "heigth"
 - change the render method of the Class "DimensionConfigurater" so the it renders one of those according to the dimension property
   - I'm a width configurator
   - I'm a height configurator
