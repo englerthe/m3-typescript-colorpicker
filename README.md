@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  - fork and clone this project
 
 ## Iteration 1
-- Create a new JSX Component Class "SquareConfigurator", it should render "Hello I'm a square configurator"
-- add it to App.tsx
-- Create as new JSW Component Class "DimensionConfigurator", it should render "I'm a DimensionConfigurator"
-- add two "DimensionConfigurator"s to the render method fo the SquareConfigurator
+- Create a new JSX Component Class "SquareConfigurator.tsx", it should render "Hello I'm a square configurator"
+- add <SquareConfigurator /> to the render() method of App.tsx
+- Create as new JSX Component Class "DimensionConfigurator.tsx", it should render "I'm a DimensionConfigurator"
+- add two times <DimensionConfigurator/> to the render method of the SquareConfigurator.tsx
 
 ## Iteration 2
 - add the property "Dimension" to the DimensionConfigurator Class
