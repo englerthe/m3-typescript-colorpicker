@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import RectangleConfigurator from './RectangleConfigurator/RectangleConfigurator'
-
+import RGBColorPicker from './RGBColorPicker/RGBColorPicker'
 
 interface IProps { };
 interface IState { };
@@ -16,7 +15,8 @@ export default class App extends React.PureComponent<IProps, IState> {
   render() {
     return <div>
       <p>Hello TypeScript world</p>
-      <RectangleConfigurator />
+      <RGBColorPicker />
+
 
     </div>
   }
