@@ -31,7 +31,9 @@ export default class RectangleConfigurator extends React.PureComponent<IProps, I
             display: "inline-block",
             width: `${this.state.width}px`,
             height: `${this.state.height}px`,
-            border: "1px solid black"
+            border: "1px solid black",
+            backgroundColor: "red",
+            margin: "10px"
         }
         return (
             <div>
