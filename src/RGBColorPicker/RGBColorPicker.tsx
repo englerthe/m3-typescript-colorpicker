@@ -1,5 +1,7 @@
 import React from 'react';
 import SingleColorPicker, {baseColor} from './SingleColorPicker'; 
+
+
 interface IProps{};
 interface IState{
     rValue:number;

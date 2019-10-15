@@ -52,7 +52,9 @@ export default class SingleColorPicker extends React.PureComponent<IProps, IStat
             backgroundColor: colorSample
         }
         return <div>
-            <div style={scpStyle}></div><div style={sampleStyle}></div><input type="number" value={this.props.intensity} onChange={this.callIntensityChangeOfParentComponent}/>
+            <div style={scpStyle}></div>
+            <div style={sampleStyle}></div>
+            <input type="number" value={this.props.intensity} onChange={this.callIntensityChangeOfParentComponent}/>
             I'm a ColorPicker for {this.props.color}
         </div>
     }
